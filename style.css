@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "norse";
+    src: url(/fonts/norse/Norse-KaWl.otf);
+}
+
+@font-face {
+    font-family: "norse-bold";
+    src: url(/fonts/norse/NorseBold-2Kge.otf);
+}
+
+body {
+    background-image: url(/images/background-odin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
