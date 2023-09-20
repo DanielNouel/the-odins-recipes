@@ -13,11 +13,18 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(/images/background-odin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 
@@ -72,5 +79,27 @@ body {
 }
 
 
-
 /* FOOTER */
+.footer {
+    margin-top: auto;
+}
+
+.credits {
+    display: flex;
+}
+
+.name {
+    font-family: "norse";
+}
+
+.logos img {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.credits .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
