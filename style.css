@@ -8,10 +8,52 @@
     src: url(/fonts/norse/NorseBold-2Kge.otf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(/images/background-odin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+}
+
+.header {
+    display: flex;
+}
+
+.left-side {
+    flex: 1;
+}
+
+.right-side {
+    flex: 1;
+    text-align: center;
+}
+
+.title-box {
+    margin-top: 1.5em;
+}
+
+.title-box a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: "norse";
+    color: rgba(0, 0, 0, 100);
+    font-size: 5em;
+}
+
+.eye {
+    height: 3em;
+    width: 3.45em;
+    margin: 0.7em 0 0 0.7em;
+}
+
+.eye:hover {
+    height: 3.5em;
+    width: 4em;
 }
