@@ -1,3 +1,4 @@
+/* GENERAL */
 @font-face {
     font-family: "norse";
     src: url(/fonts/norse/Norse-KaWl.otf);
@@ -68,15 +69,22 @@ body {
 }
 
 
+
 /* MAIN */
 .main {
     display: flex;
 }
 
+
+/* MAIN INDEX */
 .frame img {
     height: 35em;
     width: 35em;
 }
+
+
+/* MAIN RECIPES */
+
 
 
 /* FOOTER */
