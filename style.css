@@ -104,6 +104,19 @@ li{
     list-style-type: none;
 }
 
+.text p,
+.subtitle {
+    margin: 1em 0;
+}
+
+strong {
+    font-family: "norse-bold";
+}
+
+li {
+    margin: 0;
+}
+
 li::before {
     content: "- ";
 }
@@ -122,6 +135,17 @@ li::before {
 .subtitle {
     font-size: 1.8em;
     font-weight: 500;
+}
+
+.arrow-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.arrow {
+    height: 8em;
+    width: 8em;
 }
 
 
