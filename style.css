@@ -84,6 +84,45 @@ body {
 
 
 /* MAIN RECIPES */
+.container {
+    width: 45em;
+    text-align: center;
+    margin: auto;
+}
+
+.introduction,
+.ingredients-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p,
+li{
+    text-align: left;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+li::before {
+    content: "- ";
+}
+
+.recipe-name {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.list-box {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.subtitle {
+    font-size: 1.8em;
+    font-weight: 500;
+}
 
 
 
