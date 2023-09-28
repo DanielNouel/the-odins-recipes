@@ -104,9 +104,14 @@ li{
     list-style-type: none;
 }
 
+ul li,
+ol li {
+    margin-top: 0.1em;
+}
+
 .text p,
 .subtitle {
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 strong {
